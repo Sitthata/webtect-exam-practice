@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title> </title>
+    <style>
+      body {
+        margin-top: 100px;
+        margin-left: 25%;
+        margin-right: 25%;
+        font-family: Verdana;
+        font-size: 1.25em;
+      }
+
+      .topic {
+        color: darkorange;
+      }
+
+      img {
+        margin: 10px auto 20px;
+        display: block;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form method="post" action="../showanswer.php">
+      <label for="question1">
+        1.Which disclipline is not in Data Scientist?
+      </label>
+      <ul style="list-style: none">
+        <li>
+          <input type="radio" name="question1" value="1" />
+          <label for="question1">Data Engineering</label>
+        </li>
+
+        <li>
+          <input type="radio" name="question1" value="2" />
+          <label for="question1">Visualization</label>
+        </li>
+
+        <li>
+          <input type="radio" name="question1" value="3" />
+          <label for="question1">Statistics</label>
+        </li>
+
+        <li>
+          <input type="radio" name="question1" value="4" />
+          <label for="question1">Computer Graphic</label>
+        </li>
+      </ul>
+
+      <label for="question2">
+        2. Which skills and expertise should Data Scientists should have?
+        (Choose all possible)
+      </label>
+      <ul style="list-style: none">
+        <li>
+          <input type="checkbox" name="question2" value="1" />
+          <label for="question2">Data Engineering</label>
+        </li>
+
+        <li>
+          <input type="checkbox" name="question2" value="2" />
+          <label for="question2">Visualization</label>
+        </li>
+
+        <li>
+          <input type="checkbox" name="question2" value="3" />
+          <label for="question2">Statistics</label>
+        </li>
+
+        <li>
+          <input type="checkbox" name="question2" value="4" />
+          <label for="question2">Computer Graphic</label>
+        </li>
+      </ul>
+    
+      <label for="question3">3.List Data Science process and show all tasks in each process.</label>
+      <textarea name="question3" cols="80" rows="5"></textarea>
+      <br><input type="submit" value="Send" />
+    </form>
+  </body>
+</html>
